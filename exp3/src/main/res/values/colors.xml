@@ -1,0 +1,11 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="backgroundDarkColor">#121212</color>
+    <color name="textColor">#000000</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="buttonBackgroundColor">#6200EE</color>
+    <color name="scientificButtonBackgroundColor">#03DAC5</color>
+</resources>
