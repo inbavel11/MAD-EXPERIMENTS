@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f0f0f0">
+
+    <!-- Roll Number Input -->
+    <EditText
+        android:id="@+id/rollNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Roll Number"
+        android:inputType="number"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="#333"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:background="@drawable/textview_background"
+        android:textColor="#fff"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:background="@drawable/button_background"
+        android:textColor="#fff"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Student Info Display -->
+    <TextView
+        android:id="@+id/studentInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:background="@drawable/textview_background"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#555"/>
+
+    <!-- Author Info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Photo -->
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/authorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by Inbavel S"
+            android:textColor="#333"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
