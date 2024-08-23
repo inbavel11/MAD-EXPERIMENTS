@@ -5,13 +5,13 @@ Welcome to the Mobile Application Experiments Lab! This repository hosts various
 Table of Contents
 Overview
 Features
-#Login System
-#Font Change Functionality
-#Calculator
-#Credential Verification
+# Login System
+# Font Change Functionality
+# Calculator
+# Credential Verification
 #Installation
 Usage
-#Contributing
+# Contributing
 License
 Overview
 This project contains multiple experiments focused on different aspects of mobile application development. These experiments include implementations of a secure login system, dynamic font change functionality, a basic calculator, and credential verification methods. Each experiment is designed to be modular, allowing you to integrate them into your projects easily.
