@@ -1,5 +1,5 @@
 # MAD-Experiments
-Mobile Application Experiments Lab
+
 Welcome to the Mobile Application Experiments Lab! This repository hosts various mobile application experiments aimed at improving user experience, security, and functionality in mobile apps.
 
 Table of Contents
