@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:padding="20dp">
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="391dp"
+        android:layout_height="73dp"
+        android:background="@drawable/input_field_style"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="32sp" />
+
+    <!-- ID Input -->
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="372dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/input_field_style"
+        android:hint="Enter ID"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:textSize="32sp" />
+
+    <!-- Validate Button -->
+
+    <!-- Reset Button -->
+
+    <!-- Picture of Inbavel -->
+
+    <!-- By Inbavel -->
+
+
+    <Button
+        android:id="@+id/buttonValidate"
+        android:layout_width="132dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/editTextID"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/validate_button_style"
+        android:padding="15dp"
+        android:text="Validate"
+        android:textColor="#CA5D13"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/buttonValidate"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/validate_button_style"
+        android:padding="15dp"
+        android:text="Reset"
+        android:textColor="#C65717"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/inbavelImage"
+        android:layout_width="194dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/buttonReset"
+        android:layout_marginTop="101dp"
+        android:src="@drawable/inbavelpicture" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="By Inbavel"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
