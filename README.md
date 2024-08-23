@@ -9,10 +9,7 @@ Features
 # Font Change Functionality
 # Calculator
 # Credential Verification
-#Installation
-Usage
-# Contributing
-License
+
 Overview
 This project contains multiple experiments focused on different aspects of mobile application development. These experiments include implementations of a secure login system, dynamic font change functionality, a basic calculator, and credential verification methods. Each experiment is designed to be modular, allowing you to integrate them into your projects easily.
 
@@ -61,7 +58,7 @@ Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/mobile-app-experiments-lab.git
+git clone https://github.com/inbavel11/MAD-Experiments.git
 Navigate to the project directory:
 
 bash
