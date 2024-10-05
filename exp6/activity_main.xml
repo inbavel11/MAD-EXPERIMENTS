@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Text will appear here"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/languages"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Speaking"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Speech"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Inbavel S"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:textColor="#FF6200EE"/>
+</LinearLayout>
